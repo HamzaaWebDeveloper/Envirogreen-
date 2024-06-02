@@ -1,0 +1,541 @@
+/* Fonts Starts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lugrasimo&family=Maven+Pro:wght@400..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap');
+/* Ends */
+
+.logo-css {
+  width: 160px;
+  height: 120px;
+}
+
+.background-image {
+  background-image: url("/images/Banner/banner-layer.png"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.banner-image {
+  position: absolute;
+  top: 21rem;
+  right: 36rem;
+  width: 17%;
+  height: 212px;
+  background: url("/images/Banner/banner-triangle.png") no-repeat;
+  background-size: cover;
+  z-index: 999;
+  filter: blur(5px);
+}
+
+.banner-image-2 {
+    position: absolute;
+    top: 21.5rem;
+    right: 44rem;
+    width: 10%;
+    height: 190px;
+    background: url("/images/Banner/banner-triangle-2.png ") no-repeat;
+    background-size: cover;
+    z-index: revert-layer;
+    filter: blur(5px);
+}
+.banner-img-css {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.search-ico {
+  color: #000000;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-ico {
+  font-size: 1.3rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-input {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -187px;
+  width: 200px;
+  padding: 5px;
+  font-size: 1rem;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 0px;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+::placeholder {
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+.search-input.show {
+  display: inline-block;
+}
+
+.btn-login-css {
+  font-size: 15px;
+  font-family: "Ysabeau Infant", sans-serif;
+  border-radius: 30px;
+}
+
+
+
+.btn-login-css:hover{
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: 0.1ms ;
+}
+
+.btn-login-css:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-enroll-css {
+    font-family: "Ysabeau Infant", sans-serif;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(90deg, #66b618 30%, #407e4b 70%) 1; 
+
+}
+
+
+.btn-enroll-css:focus{
+
+   outline: none;
+   box-shadow: none;
+}
+
+
+
+.nav-link{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 18px;
+    color:#000000;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .nav-link:hover{
+    color: #407e4b;
+  }
+
+  .nav-link:focus{
+    color: #000000;
+  }
+
+  
+  .navbar-nav a:after {
+    content: '';
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background: #66b618 ; 
+    transform: scaleX(0); 
+    transform-origin: 0 50%;
+    transition: transform 0.3s;
+  }
+  
+  .navbar-nav a:hover:after {
+    transform: scaleX(1); 
+  }
+
+
+
+  /* Banner Css */
+
+
+  .banner-txt{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Maven Pro", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .banner-txt-2{
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+  }
+
+  .banner-paragraph{
+    z-index: 9999;
+    font-family: 'Ysabeau Infant', sans-serif;
+ 
+  }
+
+
+  .banner-img-css{
+    width: 300px;
+    height: 350px;
+    border: 4px solid #66b618;
+    margin-left: 13rem;
+
+  }
+
+
+  /* Banner Css End */
+
+
+/* Services Css Start */
+
+
+
+.categories-text-css{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-image: linear-gradient(90deg, #66b618 30%, #407e4b 70%) 1; 
+    border-width: 4px ;
+  padding: 5px;
+    border-style: solid;
+}
+
+.services-heading{
+    font-family: "Kanit", sans-serif;
+    font-size: 40px;
+    color:#407e4b;
+}
+
+.div-border{
+    border-bottom:7px solid  #407e4b;
+}
+
+.card-css{
+    border: none;
+    padding: 30px;
+    
+}
+
+.card-css:hover {
+    background: linear-gradient(to bottom, #75b14a, #3f8d32);
+  }
+  
+  .card-css:hover .card-img-top {
+    filter: brightness(0) invert(1);
+  }
+  
+  .card-css:hover .card-text {
+    color: white;
+  }
+  
+
+.card-img{
+  border-radius: 100px;
+    width: 120px;
+}
+
+.card-text{
+    font-family: "Maven Pro", sans-serif;
+}
+
+/* Services Css End */
+
+
+/* Courses Css Start */
+
+
+.courses-card-css{
+    border: 0px;
+}
+
+.card-title-courses{
+    font-family: "Kanit", sans-serif;
+}
+
+
+.card-text-courses{
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.rev{
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.text-free{
+    font-family: "Kanit", sans-serif;
+}
+
+
+.btn-courses-css{
+    color: #fff;
+  background: linear-gradient(to bottom, #598639, #3f8d32);   
+  font-family: "Kanit", sans-serif;
+}
+
+.layer-img-css{
+  position: relative;
+  border-radius: 10px;
+  width: 400px;
+  height: 450px;
+  z-index: -1;
+}
+
+.layer-img-css-2{
+  position: relative;
+  width: 200px;
+  height: 166px;
+  bottom: 21rem;
+  left: 18rem;
+  border-radius: 10px;
+}
+
+
+.layer-img-css-3{
+  position: relative;
+  bottom: 13rem;
+  left: 5rem;
+
+}
+
+.layer-img-css-4{
+  position: relative;
+  z-index: -1;
+  top: -48.3rem;
+  left: 4rem;
+
+
+}
+
+.border-about{
+  border-right: 5px solid #66b618;
+  height: 64rem;
+}
+
+
+.vision-ico{
+  width: 80px;
+}
+
+.vision-txt{
+color: #407e4b;
+font-weight: bold;
+font-family: 'Ysabeau Infant', sans-serif;
+font-size: 18px;
+}
+
+.vision-para{
+  position: relative;
+  left: 3rem;
+  bottom: 1rem;
+  justify-content: center;
+  font-size: 20px;
+}
+
+
+/* Our Impact */
+
+.infographic-container {
+ 
+  padding: 50px 0;
+  position: relative;
+}
+.infographic-item {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  font-size: 40px;
+}
+.infographic-item img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+.infographic-item h3 {
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-size: 34px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #3f8d32;
+}
+.infographic-item p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.line {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background:linear-gradient(to right,#407e4b,#28a745) ;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+  border: 4px solid #407e4b;
+  position: absolute;
+  top: 12px;
+}
+.circle:nth-child(1) { left: 32.5%; }
+.circle:nth-child(2) { left: 36.5%; }
+.circle:nth-child(3) { left: 62%; }
+.circle:nth-child(4) { left: 87.5%; }
+
+
+/* End */
+
+
+/* Reviews */
+
+.card-css-shadow{
+  box-shadow: 10px 20px 20px 10px rgba(14, 12, 12, 0.2); 
+}
+
+.card-css-reviews-1 {
+  border: 0px;
+  border-radius: 0px;
+  background: linear-gradient(to right, #2a7127, #6fab47);
+  color: #f9f9f9;
+  
+}
+
+.card-css-reviews-2{
+  background-color: #f9f9f9;
+  border: 0px;
+  border-radius: 0px;
+  color: #000000;
+}
+
+.card-css-reviews-3{
+  border: 0px;
+  border-radius: 0px;
+  background: linear-gradient(to right, #2a7127 , #6fab47 );
+  color: #f9f9f9;
+}
+
+.card-css-reviews-4{
+  background-color:  #f9f9f9;
+  border: 0px;
+  border-radius: 0px;
+  color: #000000;
+}
+
+
+
+
+.reviews-card-txt{
+  font-size: 16px;
+  justify-items: center;
+
+}
+
+
+/* End */
+
+
+.branches-css{
+  background: linear-gradient(to right, #2a7127 , #6fab47 );
+}
+
+.branch-col-1{
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  border-right: 4px solid #f9f9f9;
+}
+
+.branch-col-2{
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+
+.location-branch{
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  color: #f9f9f9;
+}
+
+.location-ico{
+  font-size:22px;
+  color: #f9f9f9;
+  font-size: bold;
+}
+
+.location-address{
+  font-size: 22px;
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: bold;
+  color: #f9f9f9;
+}
+
+
+/* End Section */
+
+.end-text{
+  font-family: 'Ysabeau Infant', sans-serif;
+  color: #2a7127;
+}
+
+
+/* Footer Css */
+
+.footer-css{
+  background: linear-gradient(to right, #2a7127 , #6fab47 );
+
+}
+
+
+.footer-txt{
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-size: 16px;
+  color: #f9f9f9;
+  font-weight: bold;
+  
+}
+
+.footer-css-2{
+
+border-top: 4px solid #f9f9f9  ;
+
+}
+
+.remove-bullets{
+ list-style-type: none;
+}
+
+
+.btn-footer{
+  width: 120px;
+  border: 2px solid #f9f9f9;
+}
+
+.btn-footer:focus{
+  box-shadow: none;
+  outline: none;
+  color: #f9f9f9;
+  font-family: 'Ysabeau Infant', sans-serif;
+  background: linear-gradient(to right, #2a7127 , #6fab47 );
+  font-weight: bold;
+}
+
+.copyright{
+  font-family: 'Ysabeau Infant', sans-serif;
+  color: #f9f9f9;
+  font-weight: bold;
+}
+
+.footer-socials a{
+  font-size: 25px;
+  text-decoration: none;
+  color: #f9f9f9;
+}
